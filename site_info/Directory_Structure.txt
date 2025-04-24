@@ -1,0 +1,25 @@
+scotts-docs/
+├── index.php
+├── login.php
+├── register.php
+├── verify_email.php
+├── dashboard.php
+├── video.php
+├── search.php
+├── categories.php
+├── logout.php
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── scripts.js
+│   └── images/
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── db_connect.php
+│   └── functions.php
+├── oauth/
+│   └── google_oauth.php
+└── comments/
+    └── disqus_integration.php

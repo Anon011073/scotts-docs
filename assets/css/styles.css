@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.categories {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.categories a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.video-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 180px;
+    border-radius: 6px;
+}
+/* HEADER STYLING */
+.site-header {
+    background: #111;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #222;
+}
+
+.header-inner {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-title a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.site-title .title-docs {
+    color: #ccc;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+    background: #222;
+    color: white;
+}
+
+.header-actions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* DROPDOWNS */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    z-index: 99;
+}
+
+.category-menu {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    gap: 10px;
+    width: 300px;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.dropdown-menu a.danger {
+    color: red;
+}
+
+.user-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* FOOTER */
+.site-footer {
+    background: #111;
+    color: #888;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    z-index: 10;
+    margin-top: 50px;
+}
+a.site-title {
+    font-size: 0.85rem;
+    font-weight: 900;
+    letter-spacing: -0.03rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
