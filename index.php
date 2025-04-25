@@ -16,8 +16,7 @@ $videos = $pdo->query("
 ?>
 
 <div class="container">
-    <h1>Scott's Docs</h1>
-
+  
 
 
 <!-- Video Grid -->
